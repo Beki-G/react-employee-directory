@@ -4,13 +4,10 @@ import Card from "../card/Card";
 function EmployeeRoster(props) {
     // console.log("Made it to employee roster. Here are the props! ", props)
     return (
-        <div className=" content-center">
-            <h1>This is where the Roster is to start!</h1>
-            <div>
-                {props.employees.map((employee, index) => {
-                    return (<Card picture={employee.picture} name={employee.name} id={employee.id} email={employee.email} phone={employee.phone} location={employee.location} key ={index}/>)
-                })}
-            </div>
+        <div className="flex flex-wrap">
+            {props.employees.map((employee, index) => {
+                return (<Card picture={employee.picture} name={employee.name} id={employee.id} email={employee.email} phone={employee.phone} location={employee.location} key={index} />)
+            })}
         </div>
 
     )

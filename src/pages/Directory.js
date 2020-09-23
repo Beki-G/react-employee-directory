@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import API from "../utils/API"
-// import CardContainer from "../components/CardContainer";
-import EmployeeRoster from "../components/EmployeeRoster"
-import SortFilterBtn from "../components/SortFilterBtn/SortFilterBtn";
 import CardContainer from "../components/CardContainer";
 
 
@@ -90,12 +87,8 @@ function Directory() {
 
     return (
         <div>
-            <h1 className="text-xl">This is where the directory starts!</h1>
             <CardContainer handleChangeFilter={handleChangeFilter} handleChangeSort={handleChangeSort} offices={offices} filteredEmployees={filteredEmployees} employees={employees} />
-            
-
         </div>
     )
 }
-
 export default Directory;

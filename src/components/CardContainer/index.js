@@ -9,7 +9,7 @@ function CardContainer( {handleChangeFilter, handleChangeSort, offices, filtered
         <div className="container">
             <p>This is the start of the CardContainer</p>
             <SortFilterBtn onChangeSort= { handleChangeSort } onChangeFilter={handleChangeFilter} offices={offices}/>
-            <EmployeeRoster className="align-center" employees= { filteredEmployees.length>0? filteredEmployees: employees } />
+            <EmployeeRoster className="align-center flex flex-wrap" employees= { filteredEmployees.length>0? filteredEmployees: employees } />
         </div>
     )
 }
