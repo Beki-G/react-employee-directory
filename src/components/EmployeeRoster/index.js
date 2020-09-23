@@ -2,10 +2,9 @@ import React from "react";
 import Card from "../card/Card";
 
 function EmployeeRoster(props) {
-    console.log("Made it to employee roster")
-    console.log(props)
+    // console.log("Made it to employee roster. Here are the props! ", props)
     return (
-        <div>
+        <div className=" content-center">
             <h1>This is where the Roster is to start!</h1>
             <div>
                 {props.employees.map((employee, index) => {
