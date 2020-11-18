@@ -8,21 +8,23 @@ The project uses React to render random users from an api. Then gives the user a
 
 ## Table of Contents
 * [Description](#description)
+* [Deployment](#Deployment)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Built With](#Built#20With)
 * [Questions](#questions)
 
+
+## Deployment
+Check out the deployment: [Click here!]()
+![GIF of deployed application](./public/Employee_directory.gif)
+
 ## Installation
 Use the deployment link or use the repo and run `npm i`
 
 ## Usage
 Check out the page on how to use react and use to filter and sort 
-
-### Deployment
-Check out the deployment: [Click here!]()
-![GIF of deployed application](./public/Employee_directory.gif)
 
 ## License
 The Unlicense - A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
